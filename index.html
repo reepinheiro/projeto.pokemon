@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokemon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/imagens/logo1.png" alt="Logo X-Men">       
+    
+    </header>
+   
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione seu primeiro Pokemon </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="bulbasaur" data-name="bulbasaur" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                    <img src="src/imagens/bulbasaur.png" alt="Personagem bulbasaur">
+                </li>
+
+                <li class="personagem" id="charmander" data-name="charmander" data-description="Charmander - Pokemón do tipo fogo, sua labareda de fogo que fica em sua cauda do  indica suas emoções. Quando ela tremula indica que ele está se divertindo.Porém, se ele ficar furioso, a chama queima ferozmente.
+                Evolui para Charmeleon e depois para Charizar">
+
+                    <img src="src/imagens/charmander.png" alt="Personagem Charmander">
+                </li>
+
+                <li class="personagem" id="squirtle" data-name="squirtle" data-description="Squirtle
+                Uma das marcas registradas do Squirtle é sua concha, que não é apenas usada para proteção. Com uma forma arredondada e as ranhuras na superfície, sua concha ajuda a minimizar a resistência na água, permitindo que este Pokémon nade em alta velocidade.
+                A Evolução do Squirtle é o Wartortle e depois Blastoise."> 
+                    <img src="src/imagens/squirtle.png" alt="Personagem Squirtle">
+                </li>
+
+                <li class="personagem" id="pikachu" data-name="pikachu" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos">
+                    <img src="src/imagens/pikachu.png" alt="Personagem Pikachu">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/card-bulbasaur.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas
+                    por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
